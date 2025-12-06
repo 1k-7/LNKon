@@ -19,7 +19,7 @@ class FanMTLCrawler(Crawler):
 
     def initialize(self):
         # [TURBO] 60 threads for downloading
-        self.init_executor(60) 
+        self.init_executor(45) 
         
         # 1. Setup the RUNNER (Standard Requests)
         self.runner = requests.Session()
